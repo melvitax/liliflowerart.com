@@ -1,0 +1,25 @@
+:root {
+    color-scheme: light dark;
+}
+
+// a:link, a:hover, a:active, a:visited {
+//     text-decoration: none;
+//     font-optical-sizing: auto;
+//     font-weight: 400;
+//     font-style: normal;
+// }
+
+
+.apps a img {
+    transition: all .2s ease-in-out;
+    box-shadow: 0 5px 20px #6d6d6d75 ;
+}
+.apps a:hover img {
+    transform: scale(1.1); 
+    box-shadow: 0 5px 40px #474747d5 ;
+}
+
+.apps col:hover {
+    color: black;
+}
+

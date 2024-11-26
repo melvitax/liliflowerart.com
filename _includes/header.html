@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand {% if page.id == 'nota' %}active{% endif %}" href="/">All Forces</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link {% if page.id == 'nota' %}active{% endif %}" href="/nota">Nota</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.id == 'margana' %}active{% endif %}" href="/margana">Margana</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.id == 'thinkertoy' %}active{% endif %}" href="/thinkertoy">ThinkerToy: Shapes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {% if page.id == 'thirtyaday' %}active{% endif %}" href="/thirtyaday">thirtyaday</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
